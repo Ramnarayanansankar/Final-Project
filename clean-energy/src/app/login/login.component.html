@@ -1,0 +1,10 @@
+<div class="login-page">
+  <div class="form">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm)" class="login-form">
+      <input type="text" id="username" formControlName="username" name="username" placeholder="username" required>
+      <input type="password" id="password" formControlName="password" name="password" placeholder="password" required>
+      <button type="submit">Login</button>
+      <p class="message"><a href="#">Forgot password?</a></p>
+    </form>
+  </div>
+</div>

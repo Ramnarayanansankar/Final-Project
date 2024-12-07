@@ -1,0 +1,28 @@
+{
+  "name": "clean-energy",
+  "version": "1.0.0",
+  "description": "The path to NGInx main folder: /usr/share/nginx/html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabionolasco/clean-energy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabionolasco/clean-energy/issues"
+  },
+  "homepage": "https://github.com/fabionolasco/clean-energy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4"
+  }
+}

@@ -1,0 +1,11 @@
+<nav>
+  <ul>
+    <li><a [routerLink]="['/login']" *ngIf="!authService.loginStatus">Login</a></li>
+      <li><a [routerLink]="['/dashboard']" *ngIf="authService.loginStatus">Dashboard</a></li>
+      <li><a [routerLink]="['/about']" *ngIf="authService.loginStatus">Summary</a></li>
+      <li><a [routerLink]="['/contact']" *ngIf="authService.loginStatus">Reports</a></li>
+  </ul>
+  <ul style="align-content: flex-end;">
+    <li><a (click)="logout()" [routerLink]="['/logout']" *ngIf="authService.loginStatus">Logout</a></li>
+</ul>
+</nav>
